@@ -1,0 +1,106 @@
+@font-face {
+      font-family: STXINGKA;
+      src: url("../font/STXINGKA.TTF");
+}
+html{
+    min-width: 1048px;
+    min-height: 536px;
+}
+body{
+    min-width: 1048px;
+    min-height: 536px;
+}
+h1{
+    position: absolute;
+    top: 10%;left:6%;
+    font-size: 600%;
+    color: white;
+    text-align: center;
+}
+h2{
+    position: absolute;top: 30%;
+    left:12%;font-size: 400%; 
+    color: white;
+    text-align: center;
+}
+h3{
+    position: absolute;
+    top: 45%;left:18%;
+    font-size: 350%; 
+    color: white;text-align: center;
+}
+#mainBody{
+    background: linear-gradient(45deg, #23144e 0, #631e4a 100%);
+    background: -webkit-linear-gradient(45deg, #23144e 0, #631e4a 100%);
+    background: -o-linear-gradient(45deg, #23144e 0, #631e4a 100%); 
+    background: -moz-linear-gradient(45deg, #23144e 0, #631e4a 100%);
+    box-shadow:inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -webkit-box-shadow:inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow:inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    height: 75%
+}
+#input_label{
+    width: 28%;
+    font-size:large;
+    position: absolute;
+    top: 33%;
+    left: 65%
+}
+#footer_info{
+    font-size: 80%;
+    font-family: "SIMYOU";
+    text-align: center;
+    color: #4A4A4A
+    margin-top: 20px;
+}
+#footer_words{
+    font-size: 400%;
+    font-family: "STXINGKA";
+    text-align: center;
+    color: black;
+    margin-top: 2%
+}
+
+
+.loading{
+            width: 100px;
+            height: 15px;
+            margin: 0 auto;
+            margin-top:10px;
+            margin-right: 0px;
+        }
+        .loading span{
+            display: inline-block;
+            width: 10px;
+            height: 66.7%;
+            margin-right: 5px;
+            border-radius: 50%;
+            background: #4D4D4D;
+            -webkit-animation: load 1.04s ease infinite;
+        }
+        .loading span:last-child{
+            margin-right: 0px; 
+        }
+        @-webkit-keyframes load{
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        .loading span:nth-child(1){
+            -webkit-animation-delay:0.13s;
+        }
+        .loading span:nth-child(2){
+            -webkit-animation-delay:0.26s;
+        }
+        .loading span:nth-child(3){
+            -webkit-animation-delay:0.39s;
+        }
+        .loading span:nth-child(4){
+            -webkit-animation-delay:0.52s;
+        }
+        .loading span:nth-child(5){
+            -webkit-animation-delay:0.65s;
+        }
